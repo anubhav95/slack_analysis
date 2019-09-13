@@ -3,7 +3,7 @@ from slackclient import SlackClient
 import requests
 from datetime import datetime
 
-slack_token = 'xoxp-735167094370-747474593252-736502788627-c74aa250886772919ced51438b04484c'
+slack_token = ''
 
 slack_client = SlackClient(slack_token)
 print(slack_client.api_call("api.test"))
